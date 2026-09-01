@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Drill 2</title>
+
+    <style>
+        body {
+            background-color: white;
+            text-align: center;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div style="border-radius: 1px; border-style: dashed; border-color: mediumseagreen; margin-left: 300px; margin-right:300px; background-color:antiquewhite; padding: 20px;">
+    <h1><i><u>Arithmetic Operations</u></i></h1>
+    <form>
+        <input type="number" id="num1" placeholder="enter the 1st number"><br>
+        <input type="number" id="num2" placeholder="enter the 2nd number"><br>
+        <input type="button" py-click="adding_numbers" value="Add">
+        <input type="button" py-click="subtracting_numbers" value="Subtract">
+        <input type="button" py-click="multiplying_numbers" value="Multiply">
+        <input type="button" py-click="dividing_numbers" value="Divide">
+        <input type="button" py-click="exponentiating_numbers" value="Exponentiate">
+    </form>
+    <div id="result" style="color: mediumseagreen; font-size: 35px;"></div>
+    <py-script src="main.py"></py-script></div>
+</body>
+</html>
